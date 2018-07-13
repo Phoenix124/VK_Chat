@@ -47,7 +47,7 @@
                         <div class="d-inline-block pl-1">
                             <h6 class="m-0" ng-bind="message.sender.name" data-ng-class="message.sent ? '' : 'text-white'"></h6>
                             <small class="d-block" data-ng-class="message.sent ? 'text-muted' : 'text-white'">
-                                {{message.sentAt | date:'dd.MM.yyyy HH:mm:ss'}}
+                                {{message.date | date:'dd.MM.yyyy HH:mm:ss'}}
                             </small>
                         </div>
                     </div>
